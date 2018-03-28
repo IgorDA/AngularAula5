@@ -1,0 +1,14 @@
+<div class="container">
+  <h2>Amigo</h2>
+  <ul class="list-Amigo">
+    <li *ngFor="let amigo of amigos">
+      <span>{{amigo.id}}</span>
+      {{amigo.nome}}
+    </li>
+  </ul>
+</div>
+
+<div class="container">
+  <input [(ngModel)]="amigo.nome" placeholder="Digite o nome do Amigo" />
+  <button (click)="addAmigo()">Adicionar</button>
+</div>
