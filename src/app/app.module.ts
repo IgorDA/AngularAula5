@@ -14,7 +14,7 @@ import { AmigoDetailComponent } from './amigo-detail/amigo-detail.component';
     AppComponent,
     AmigoDetailComponent,
     ComprasDetailComponent,
-    InicialComponent,
+    InicialComponent
     
   ],
   imports: [
