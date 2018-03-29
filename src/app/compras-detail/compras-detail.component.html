@@ -1,0 +1,14 @@
+<div class="container">
+  <h2>Compras</h2>
+  <ul class="list-compra">
+    <li *ngFor="let compra of compras">
+      <span>{{compra.id}}</span>
+      {{compra.discricao}}
+    </li>
+  </ul>
+</div>
+
+<div class="container">
+  <input [(ngModel)]="compra.discricao" placeholder="Digite a discricao" />
+  <button (click)="addCompra()">Adicionar</button>
+</div>

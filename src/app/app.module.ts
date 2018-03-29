@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/Forms';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { ComprasDetailComponent } from './compras-detail/compras-detail.component';
+import { InicialComponent } from './inicial/inicial.component';
 import { AmigoDetailComponent } from './amigo-detail/amigo-detail.component';
 
 
@@ -11,6 +13,8 @@ import { AmigoDetailComponent } from './amigo-detail/amigo-detail.component';
   declarations: [
     AppComponent,
     AmigoDetailComponent,
+    ComprasDetailComponent,
+    InicialComponent,
     
   ],
   imports: [
